@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<VoidedDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>u0jLNdVXm+7TyQB0oudWfeSezXM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>PZBVWrFofjjdN7GXjgLoNDb5nvboY1id495b1z4fUSCzbmYIltUaqh/HEMreobs2CC6CxjPFZJx5C0vIWWEEfq8Yt7Q6nxLFa4dRPp4isTzxeKdkii9XzZxA7brCunoQngWSGpq9dLHoZ7sW3tS6JkkOIQDtke8fj5wpmv38W+CTYoR+rOFpZTDPAospgmeGXZlRdyznb5cjqul+EdSVXLaXmtvBGZ/AWBWL1i79Bflizeqw4kh9JjY7c40g5zRGPbNIsGtIV+6fRK1Gnl2zn/fimQRkeFXlXyMqHfw4y1Cp0fqLSH/l+nPuXN/WM8bswRqIWUo61ibT5TopN3GKgg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIqDCCBpCgAwIBAgIUIjPv4ZZoagmou9GeQVT1hA5UjAowDQYJKoZIhvcNAQELBQAwbDELMAkGA1UEBhMCUEUxPDA6BgNVBAoMM1JlZ2lzdHJvIE5hY2lvbmFsIGRlIElkZW50aWZpY2FjacOzbiB5IEVzdGFkbyBDaXZpbDEfMB0GA1UEAwwWRUNFUC1SRU5JRUMgQ0EgQ2xhc3MgMTAeFw0yMjAxMDUwMzUxNDBaFw0yNTAxMDQwMzUxNDBaMIIBEDELMAkGA1UEBhMCUEUxHjAcBgNVBAgMFUxBTUJBWUVRVUUtTEFNQkFZRVFVRTEPMA0GA1UEBwwGUEFDT1JBMSswKQYDVQQKDCJJTlZFUlNJT05FUyBZIFNFUlZJQ0lPUyBUT0xJTk8gU0FDMRowGAYDVQRhDBFOVFJQRS0yMDYwNjAyMzgwNTEhMB8GA1UECwwYRVJFUF9TVU5BVF8yMDIyMDAwMjI3MDQxMRQwEgYDVQQLDAsyMDYwNjAyMzgwNTFOMEwGA1UEAwxFfHxVU08gVFJJQlVUQVJJT3x8IElOVkVSU0lPTkVTIFkgU0VSVklDSU9TIFRPTElOTyBTQUMgQ0RUIDIwNjA2MDIzODA1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiv+NM50hye7/e69+A2ArMKEUuC8lXnp/qhr7SDWQe9C7hVvYbUBoWAaNqVqTkqT2BEBYOtSle+FkCRV/7OdsteyLU7KrXR8xWaYs2fA5fPeq+fw2dq3fyGQaKWXkqGy2cJmh18f4CZGT1XSaMMgRQYTHlJKNe9jre2eyyRbOR9V+T1b0rcmpwEYWojkV+SQN13Q+BheKd7V2mJQ8WYQMkoYz4gU8+77oj8WFeVQtxQ0NYidMIQv6NxBv5jfQ5nn1RqDDGfXq6Ml6pjE4m1toIGhBnngrQF61PZvciEXvX3m/Tv+D5ehu52klRlAI57PmFUta+U8dpjtbggsOIwzQYQIDAQABo4IDmjCCA5YwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRDFW7w09FrGykzQS1VrHEi0TylXTBuBggrBgEFBQcBAQRiMGAwNwYIKwYBBQUHMAKGK2h0dHA6Ly9jcnQucmVuaWVjLmdvYi5wZS9yb290My9jYWNsYXNzMS5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnJlbmllYy5nb2IucGUwggI3BgNVHSAEggIuMIICKjB3BhErBgEEAYKTZAIBAwEAZYdoADBiMDEGCCsGAQUFBwIBFiVodHRwczovL3d3dy5yZW5pZWMuZ29iLnBlL3JlcG9zaXRvcnkvMC0GCCsGAQUFBwIBFiFQb2ztdGljYSBHZW5lcmFsIGRlIENlcnRpZmljYWNp824wgcQGESsGAQQBgpNkAgEDAQBnh2gAMIGuMDIGCCsGAQUFBwIBFiZodHRwczovL3BraS5yZW5pZWMuZ29iLnBlL3JlcG9zaXRvcmlvLzB4BggrBgEFBQcCAjBsHmoARABlAGMAbABhAHIAYQBjAGkA8wBuACAAZABlACAAUAByAOEAYwB0AGkAYwBhAHMAIABkAGUAIABDAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuACAARQBDAEUAUAAtAFIARQBOAEkARQBDMIHnBhErBgEEAYKTZAIBAwEBZ4dzAzCB0TCBzgYIKwYBBQUHAgIwgcEegb4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAARABpAGcAaQB0AGEAbAAgAFQAcgBpAGIAdQB0AGEAcgBpAG8AIABwAGEAcgBhACAAQQBnAGUAbgB0AGUAIABBAHUAdABvAG0AYQB0AGkAegBhAGQAbwAgAEMAbABhAHMAcwAgADEALAAgAGUAbgAgAGMAdQBtAHAAbABpAG0AaQBlAG4AdABvACAAZABlAGwAIABEAEwAIABOALoAIAAxADMANwAwMBMGA1UdJQQMMAoGCCsGAQUFBwMEMHYGA1UdHwRvMG0wNKAyoDCGLmh0dHA6Ly9jcmwucmVuaWVjLmdvYi5wZS9jcmwvc2hhMi9jYWNsYXNzMS5jcmwwNaAzoDGGL2h0dHA6Ly9jcmwyLnJlbmllYy5nb2IucGUvY3JsL3NoYTIvY2FjbGFzczEuY3JsMB0GA1UdDgQWBBSS867XB2K8VqfaIxUkh4YHrlxh1TAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBABtg/2U+NexUBkLuG55a9RRtI7Wea9tsiYzMHW31BF5R6rFjBAZgwZrU1r2Wdr9ZVXsfmOSD4a8mAaEgvlHYsq/yLNvBVwbnwH6uuRlkGjOFb9rl3s5IOhBroGi220+WWN5LmdT5jXh7S30Af9Fn07USV4QcEz28xmkLIfB2+nd8VnEe0gY+i3ZW9AoF+7q6fi+UjhU6FRHV1/EKvrV6ZlwUDlQRP3EsWh7GbzJBgiF6AcWmoUK3fC3oadIjkEj+0pmvoIodridMgjRiqo6Vx8CDbPnxyITeiih7Bpb4cvHbGeLTPea4UWS4BkOYBHmJjU+Yw7uAw9dhRcp4dCqWghu1gPBBQmrNpksY/a3GbRJSNDXHHdTKnomKNWKj+E77fScy5+Z0BFBZz0qfnifabOlgefHX82WDKCDL/MT1AAafHV2dvWWCrmIPiAO868ucko6x9ZiZhZbrs1dDAc5IU7iQv2K+166WrQY3en9DZNDsdTp9bGJ9NbEAOTE6tT7j4SCc7YluaUM96lbhDVhWZHrbxQHtOs20MN0T7uxxW/Ammd+idZv7L/E7pZoPCdqL4jwyDcdTVrha6Hvel/VA4b6yb4CDzM9RWDoJbGfdEyWtKgC4Ag1g+pambQJGpKsJfYIQpv5k3kIDNLGH17VPCp0tepvQOeVZAaMVhG1/9oak</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.0</cbc:CustomizationID>
+  <cbc:ID>RA-20240322-2</cbc:ID>
+  <cbc:ReferenceDate>2024-03-16</cbc:ReferenceDate>
+  <cbc:IssueDate>2024-03-22</cbc:IssueDate>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20606023805</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[INVERSIONES Y SERVICIOS TOLINO S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>20606023805</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[INVERSIONES Y SERVICIOS TOLINO S.A.C.]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <sac:VoidedDocumentsLine>
+    <cbc:LineID>1</cbc:LineID>
+    <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+    <sac:DocumentSerialID>FN01</sac:DocumentSerialID>
+    <sac:DocumentNumberID>302</sac:DocumentNumberID>
+    <sac:VoidReasonDescription><![CDATA[GENERACION DE UN COMPROBANTE NUEVO]]></sac:VoidReasonDescription>
+  </sac:VoidedDocumentsLine>
+</VoidedDocuments>

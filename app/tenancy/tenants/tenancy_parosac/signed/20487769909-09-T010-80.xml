@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DespatchAdvice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>+VGmnz0U7FqIin44xO4iOQ5Oeig=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>TtSc/gr7Iv5H3eanON+1MRWtIpmblyO7DDBU0VtGVno/i95Evtj15X62IenqvNssAGtIzugRQpCyxcGMpJPWBBErWq92GUxbAKIT7QxkN8pD2jgsYebYfbDMeepWi1+nNLZCyM9+JegLrqR0FYLiJ7ElP6mUxyb69EnME8XF9iUGF9s7Trpn9MbkoGTe/ubHNQvNLmUQ8TTONl5K0+ftvwBXNIS/hbdaetub8Wy5tEuU4dUENF2NS5+BQQWrLHQ608bOVubg+0jJbARyk22qJKNqSuBr7IveLyrhjaAH8eUf0wq7KB5iwsRi4n8UB/iidxFIyqWYKoeZJhoh/+PRNQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>T010-80</cbc:ID>
+  <cbc:IssueDate>2023-12-06</cbc:IssueDate>
+  <cbc:IssueTime>11:55:26</cbc:IssueTime>
+  <cbc:DespatchAdviceTypeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" listName="Tipo de Documento" listAgencyName="PE:SUNAT">09</cbc:DespatchAdviceTypeCode>
+  <cbc:Note><![CDATA[ABASTECIMIENTO CHOLOCAL 07 AL 13 DICIEMBRE]]></cbc:Note>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20487769909</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[INVERSIONES &amp; NEGOCIOS PAREDES S.A.C]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:DespatchSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="6">20487769909</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[INVERSIONES &amp; NEGOCIOS PAREDES S.A.C]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DespatchSupplierParty>
+  <cac:DeliveryCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="6">20487769909</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[INVERSIONES &amp; NEGOCIOS PAREDES S.A.C]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DeliveryCustomerParty>
+  <cac:Shipment>
+    <!-- ID OBLIGATORIO POR UBL -->
+    <cbc:ID>1</cbc:ID>
+    <!-- MOTIVO DEL TRASLADO -->
+    <cbc:HandlingCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20" listName="Motivo de traslado" listAgencyName="PE:SUNAT">04</cbc:HandlingCode>
+    <cbc:HandlingInstructions>Traslado entre establecimientos de la misma empresa</cbc:HandlingInstructions>
+    <!-- PESO BRUTO TOTAL DE LA CARGA-->
+    <cbc:GrossWeightMeasure unitCode="KGM">200.00</cbc:GrossWeightMeasure>
+    <cac:ShipmentStage>
+      <!-- MODALIDAD DE TRASLADO -->
+      <cbc:TransportModeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18" listName="Modalidad de traslado" listAgencyName="PE:SUNAT">02</cbc:TransportModeCode>
+      <!-- FECHA DE INICIO DEL TRASLADO o FECHA DE ENTREGA DE BIENES AL TRANSPORTISTA -->
+      <cac:TransitPeriod>
+        <cbc:StartDate>2023-12-06</cbc:StartDate>
+      </cac:TransitPeriod>
+      <!-- CONDUCTOR PRINCIPAL -->
+      <cac:DriverPerson>
+        <!-- TIPO Y NUMERO DE DOCUMENTO DE IDENTIDAD -->
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="1">80614305</cbc:ID>
+        <!-- NOMBRES -->
+        <cbc:FirstName>CRUZ PEREZ, JHIMY JACINTO</cbc:FirstName>
+        <!-- APELLIDOS -->
+        <cbc:FamilyName>CRUZ PEREZ, JHIMY JACINTO</cbc:FamilyName>
+        <!-- TIPO DE CONDUCTOR: PRINCIPAL -->
+        <cbc:JobTitle>Principal</cbc:JobTitle>
+        <cac:IdentityDocumentReference>
+          <!-- LICENCIA DE CONDUCIR -->
+          <cbc:ID>W80614305</cbc:ID>
+        </cac:IdentityDocumentReference>
+      </cac:DriverPerson>
+    </cac:ShipmentStage>
+    <cac:Delivery>
+      <!-- DIRECCION DEL PUNTO DE LLEGADA -->
+      <cac:DeliveryAddress>
+        <!-- UBIGEO DE LLEGADA -->
+        <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">140308</cbc:ID>
+        <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE LLEGADA -->
+        <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos" listID="20487769909">0000</cbc:AddressTypeCode>
+        <cac:AddressLine>
+          <cbc:Line><![CDATA[CHOLOCAL - OLMOS]]></cbc:Line>
+        </cac:AddressLine>
+      </cac:DeliveryAddress>
+      <cac:Despatch>
+        <!-- DIRECCION DEL PUNTO DE PARTIDA -->
+        <cac:DespatchAddress>
+          <!-- UBIGEO DE PARTIDA -->
+          <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">140101</cbc:ID>
+          <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE PARTIDA -->
+          <cbc:AddressTypeCode listName="Establecimientos anexos" listAgencyName="PE:SUNAT" listID="20487769909">0000</cbc:AddressTypeCode>
+          <!-- DIRECCION COMPLETA Y DETALLADA DE PARTIDA -->
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[FRANCISCO CUNEO 922]]></cbc:Line>
+          </cac:AddressLine>
+        </cac:DespatchAddress>
+      </cac:Despatch>
+    </cac:Delivery>
+    <cac:TransportHandlingUnit>
+      <cac:TransportEquipment>
+        <!-- VEHICULO PRINCIPAL -->
+        <!-- PLACA - VEHICULO PRINCIPAL -->
+        <cbc:ID>T7U892</cbc:ID>
+      </cac:TransportEquipment>
+    </cac:TransportHandlingUnit>
+  </cac:Shipment>
+  <!-- DETALLES DE BIENES A TRASLADAR -->
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>1</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>1</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CHUÑO  X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus18]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>2</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">6.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>2</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CERDO COSTILLAR X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus176]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>3</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">5.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>3</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CEBOLLA ROJA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus588]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>4</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">7.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>4</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[LIMON X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus596]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>5</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">9.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>5</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ZANAHORIA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus639]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>6</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">15.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>6</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CHOCLO ENTERO X UNIDAD]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus490]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>7</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">14.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>7</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CAMOTE X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus586]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>8</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">19.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>8</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[PAPA BLANCA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus624]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>9</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>9</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ROCOTO X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus593]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>10</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>10</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[BROCOLI X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus441]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>11</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">4.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>11</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[APIO X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus439]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>12</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>12</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CULANTRO X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus437]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>13</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>13</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ESPINACA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus435]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>14</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">0.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>14</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[PEREJIL X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus433]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>15</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>15</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CEBOLLA CHINA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus427]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>16</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">6.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>16</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[MANZANA DE AGUA  X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus105]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>17</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>17</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ARROZ ELABORADO SUPERIOR GRAN CHALAN X 49 KG X SACO DE 49KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus3122]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>18</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">12.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>18</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[RES CARNE PURA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus387]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>19</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">46.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>19</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[POLLO ENTERO FRESCO M X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus380]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>20</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">6.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>20</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[PESCADO BONITO FILETE X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus352]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>21</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>21</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CERDO CHULETA ALMUERZO X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus1491]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>22</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>22</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[MANTEQUILLA GLORIA C/SAL 84X10GR X CAJA DE 84 UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus878]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>23</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>23</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[JAMON MILANO X500 GR X 500 GR]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus493]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>24</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">13.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>24</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[PIÑA EN TROZOS X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus477]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>25</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>25</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[MANGO PULPA ARO X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus473]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>26</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">6.2000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>26</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[MARACUYA PROCESADA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus476]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>27</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>27</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[HUEVO PARDO X180UND X PAQUETE 180]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus177]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>28</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>28</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[DETERGENTE SAPOLIO X 9KG X BOLSA]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus3245]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>29</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>29</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[LECHE EVAPORADA IDEAL AMANECER X 395GR X PLANCHA DE 24 UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus539]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>30</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>30</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[GALLETA SODA GN X40UND X CAJA DE 40UDN]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus2921]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>31</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>31</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ACEITE DE SOYA CHEF X 18 LT X BALDE 18LT]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus266]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>32</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>32</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[MANJAR BLANCO BONLE X1KG X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus226]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>33</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>33</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[MASCARILLA TRES CAPAS DESCARTABLE X50 UND X CAJA]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus89]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>34</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>34</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[QUINUA ENTERA X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus62]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>35</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>35</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[HARINA DE 7 SEMILLAS X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus34]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>36</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>36</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CHUFLA  X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus17]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>37</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>37</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[GLUTAMATO MONOSODICO X 1 KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus1]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>38</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">0.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>38</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[HIERBA BUENA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus428]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>39</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">45.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>39</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[GRANADILLAS PEQUEÑAS X UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus410]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>40</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">6.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>40</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[PIMIENTO ROJO X UNIDAD]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus594]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>41</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">19.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>41</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[PAPA UNICA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus625]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>42</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">6.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>42</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[VASO DESCARTABLE 7ONZ X50UND X PAQUETE DE 50UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus635]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>43</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">8.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>43</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CUCHARA DESCARTABLE N°6X50UND X PAQUETE DE 50UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus632]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>44</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">8.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>44</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[TENEDOR DESCARTABLE N°6X50UND X PAQUETE DE 50UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus633]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>45</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">0.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>45</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[QUESO FRESCO X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus524]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>46</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>46</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[SEMOLA X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus63]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>47</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">0.7000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>47</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[COMINO MOLIDO  X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus22]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>48</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">4.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>48</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CEBADA NEGRA  X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus14]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>49</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>49</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[GALLETA DIA VAINILLA X25GR PAQUETE X 8 UNIDADES X25GR]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus735]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>50</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>50</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[FILTRANTE  MANZANILLA DEL VALLE X 100UND X CAJA DE 100 UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus698]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>51</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">45.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>51</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[PLATANO DE ISLA MADURO X UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus406]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>52</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>52</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[MEMBRILLO EN PULPA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus674]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>53</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">4.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>53</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[RES COSTILLAR X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus392]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>54</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>54</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[FILTRANTE DE HIERBA LUISA MC X 100 SOBRES X CAJA DE 100 UNIDADES]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus700]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>55</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>55</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ACEITE AJONJOLI O. SUR X 1 LT X 1LT]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus257]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>56</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>56</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[LEVADURA INSTANTANEA X 500GR X PAQUETE]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus225]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>57</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>57</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[AGUA X 20 LITROS X BIDON]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus282]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>58</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>58</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[HARINA DE MACA X 1KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus37]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>59</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">45.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>59</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[LIMA GRANDE X UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus412]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>60</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>60</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[GELATINA DE NARANJA MONTENEGRO X 5 KG X BOLSA]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus189]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>61</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">5.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>61</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[WANTAN WANTAN]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus3280]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>62</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>62</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[NESCAFE KIRMA X 400 GR X UNIDAD DE 400GR]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus2553]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>63</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>63</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[NABO X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus436]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>64</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>64</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[FILM PLASTICO X20 DE EMBALAJE X UNIDAD]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus1374]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>65</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>65</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[SERVILLETA CORTADA X 200 H X 18 UND X PQT DE 18]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus516]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>66</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>66</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ENVASE DELI 1/2LT C/TAPA X PAQUETE DE 100 UNIDADES]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus1121]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>67</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>67</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[VINO BLANCO CLOS DE PIRQUE X LT X UNIDAD DE 1LT]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus2377]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>68</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">8.2000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>68</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CARAMBOLA PULPA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus474]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>69</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">6.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>69</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[MENUDENCIA DE POLLO PROCESADA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus378]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>70</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>70</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ENVASE DELI 1LT C/TAPA X PAQUETE DE 100 UNIDADES]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus1119]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>71</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>71</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[RES CORAZON X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus347]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>72</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>72</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[FILTRANTE TE CANELA CLAVO VALLE X 100UND X CAJA DE 100 UNIDADES]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus767]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>73</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>73</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[GUANTES NITRILLO TALLA M X CAJA]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus87]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>74</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>74</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[COLIFLOR X UNIDAD]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus445]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>75</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>75</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CERVEZA CUSQUEÑA NEGRA X 310ML X PAQUETE DE 6 UNIDADES]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus866]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>76</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>76</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[SILLAO SAN YAN PALOM 750 GR X UNIDAD DE 750 GR]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus3066]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>77</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>77</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[PAPAYA EN TROZOS PAPAYA EN TROZOS]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus3398]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>78</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">4.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>78</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[GALLINA SADIA X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus331]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>79</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>79</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[BOTELLA DESCARTABLE DE 500ML X PAQUETE DE 100 UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus659]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>80</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>80</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[FLAN DE VAINILLA MELOSITA X 5KG X BOLSA]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus183]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>81</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">0.5000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>81</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[HIERBA ROMERO X KG]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus690]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>82</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>82</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[VINO BLANCO ZUMUVA TETRA X LT X 1 LT]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus560]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>83</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>83</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CINTA DE EMBALAJE TRASNPARENTE X400YDS X UNIDAD]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus602]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>

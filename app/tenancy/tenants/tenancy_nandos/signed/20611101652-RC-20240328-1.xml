@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>FZTqeVluW8XmgKsl6wl2FLPxy3k=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>JSfxkByoAtFpFzuVVtITc1sHK6AJmVZG98X6K5jFQdb5kFSbOEwqWWEkVx6v5jhAU0YU8103gbe5pSoP6y2dB9kl8eqB5QLZAvnr4NVQ4OsCTFGaPKPLIjQV5p06+KuGqGLCn8M9lPcOfiS/R0FhwJuQrQDg8l7ICaMsv4gqYTE3Ofdz4zT0Z3b8rUusa1J7GUiJGjN0QOm4L0sfGxtJHm8JcEKM6QftQSKOPnOfwU40GCV7Nf7t7c6bIuZJPRQGXleg29LDFLKh1FLNxAcTilYvWNPbYub0X25fPBgOK/XktgW2YHD5JMcenaXgTTE7J3n7BRYuLET1L6VqlA43qQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIaTCCBlGgAwIBAgIUXcWx+CvpvXDfRKu0LNdao7wcPMwwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCUEUxPDA6BgNVBAoMM1JlZ2lzdHJvIE5hY2lvbmFsIGRlIElkZW50aWZpY2FjacOzbiB5IEVzdGFkbyBDaXZpbDEiMCAGA1UEAwwZRUNFUC1SRU5JRUMgQ0EgQ2xhc3MgMSBJSTAeFw0yMzA3MDUxOTQ2NTlaFw0yNjA3MDQxOTQ2NTlaMIHwMQswCQYDVQQGEwJQRTEcMBoGA1UECAwTTEFNQkFZRVFVRS1DSElDTEFZTzERMA8GA1UEBwwIQ0hJQ0xBWU8xGzAZBgNVBAoMElBPTExFUklBUyBEJ05BTkRPUzEaMBgGA1UEYQwRTlRSUEUtMjA2MTExMDE2NTIxITAfBgNVBAsMGEVSRVBfU1VOQVRfMjAyMzAwMDQwNTc0NjEUMBIGA1UECwwLMjA2MTExMDE2NTIxPjA8BgNVBAMMNXx8VVNPIFRSSUJVVEFSSU98fCBQT0xMRVJJQVMgRCdOQU5ET1MgQ0RUIDIwNjExMTAxNjUyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsqpoeg0IKcVCz/sozX7EgpPVad7qDin3Fe03U6Guct5fjaH0EV4tJrAtbpvKIS+5EyA3OxpyXxnKfv0pUqRIZD+uqPweVpiC7hEN1n+kpce2FGQESdhP1C8/WQ8fJMdFNG++6ytwv0JN9EtXBIiIkvjgbr8CdfDLrUoT6OHUhhubSIgnfEEn0824VtZSu8rN2/NBR9YOuK7INJw58viKhyKZegBeeHE0JiKW/eELPIek8tH1bXYRJ/99WgJPcUZCx2wqkHT7RDqw8KnpD7FpXTouXdoQqGjriyRsn56RSf+fKj/R+h4Hwkj/O/1+k5SAusDZt4WJPLFj+DaqDzorXwIDAQABo4IDeTCCA3UwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBTMfR9W4om/vkPtld/BRnu/S/3dJTBJBggrBgEFBQcBAQQ9MDswOQYIKwYBBQUHMAKGLWh0dHA6Ly9jcnQucmVuaWVjLmdvYi5wZS9yb290My9jYWNsYXNzMWlpLmNydDCCAjcGA1UdIASCAi4wggIqMHcGESsGAQQBgpNkAgEDAQBlh2gAMGIwMQYIKwYBBQUHAgEWJWh0dHBzOi8vd3d3LnJlbmllYy5nb2IucGUvcmVwb3NpdG9yeS8wLQYIKwYBBQUHAgEWIVBvbO10aWNhIEdlbmVyYWwgZGUgQ2VydGlmaWNhY2nzbjCBxAYRKwYBBAGCk2QCAQMBAGeHaAAwga4wMgYIKwYBBQUHAgEWJmh0dHBzOi8vcGtpLnJlbmllYy5nb2IucGUvcmVwb3NpdG9yaW8vMHgGCCsGAQUFBwICMGweagBEAGUAYwBsAGEAcgBhAGMAaQDzAG4AIABkAGUAIABQAHIA4QBjAHQAaQBjAGEAcwAgAGQAZQAgAEMAZQByAHQAaQBmAGkAYwBhAGMAaQDzAG4AIABFAEMARQBQAC0AUgBFAE4ASQBFAEMwgecGESsGAQQBgpNkAgEDAQFnh3MDMIHRMIHOBggrBgEFBQcCAjCBwR6BvgBDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABEAGkAZwBpAHQAYQBsACAAVAByAGkAYgB1AHQAYQByAGkAbwAgAHAAYQByAGEAIABBAGcAZQBuAHQAZQAgAEEAdQB0AG8AbQBhAHQAaQB6AGEAZABvACAAQwBsAGEAcwBzACAAMQAsACAAZQBuACAAYwB1AG0AcABsAGkAbQBpAGUAbgB0AG8AIABkAGUAbAAgAEQATAAgAE4AugAgADEAMwA3ADAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwegYDVR0fBHMwcTA2oDSgMoYwaHR0cDovL2NybC5yZW5pZWMuZ29iLnBlL2NybC9zaGEyL2NhY2xhc3MxaWkuY3JsMDegNaAzhjFodHRwOi8vY3JsMi5yZW5pZWMuZ29iLnBlL2NybC9zaGEyL2NhY2xhc3MxaWkuY3JsMB0GA1UdDgQWBBR6wU7SUNd1pcm259dijoV+fzioajAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBADK0Hc56LAFizttvbBj+jYEqo501Q8FShOyrkHsK6oUc9ZH7RMhkLxIKgkc0q/69dGCEnn2T5xnOnayNpj9kwRPb2xWeOzfeuu6ARm1+mZUm6+J8ceZ9lSRr69Y17SQPOyBcTBOV4GgsgzhWmDoK5cBkOho2+cfzqekIfh0ylo7MMNCI09fqS1idgmWoqC1lTTcmDlUQxopFlDSxqDOf/G8HilHak1+VqUjEFDo9LufSqsR/0dmiz+sDaR4UZYzFeA3fUeyYjZVPiqAcBm6g6au5osVMjKnXwWBD9sQkHDM/OV7Ucexwj7IMoo/xfnonm27JZpt4EPcO+IdMa2XnYDhVvYjEroyjUQg/qhQOHzDeR93vrAt4JdRNRkMVdGnO1QGfb1jEQf60fewzbIk8XLsw/IhX5snufqlbDwblig2BlaXUZHHr3g4UZc2GJoi7zxuD3sZIGTrp/RfIu5/L5lmSYEs3qA+jeq3AvPHmwMv56RKKW8rnMi9syiYvnEUBdVlxEtKZwXYVMUF9JwPkl9h+tpR2wkkcvvvMht5JKmHllDdK/drEw6aYc8f+tvaSsKi0TcvSeV1Q60R/PWLfEE/1aZ4/uAU25BIu2iB+3qoQDixBADQss0Y/VaDhFMqay312eJm8t00G/S2QUlj6k5xxfRuRVGu0tZK5mZksu+Ot</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.1</cbc:CustomizationID>
+  <cbc:ID>RC-20240328-1</cbc:ID>
+  <cbc:ReferenceDate>2024-03-28</cbc:ReferenceDate>
+  <cbc:IssueDate>2024-03-28</cbc:IssueDate>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20611101652</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[POLLERIAS D&#039;NANDOS]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>20611101652</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[POLLERIAS D&#039;NANDOS]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <sac:SummaryDocumentsLine>
+    <cbc:LineID>1</cbc:LineID>
+    <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+    <cbc:ID>B002-937</cbc:ID>
+    <cac:AccountingCustomerParty>
+      <cbc:CustomerAssignedAccountID>99999999</cbc:CustomerAssignedAccountID>
+      <cbc:AdditionalAccountID>0</cbc:AdditionalAccountID>
+    </cac:AccountingCustomerParty>
+    <cac:Status>
+      <cbc:ConditionCode>3</cbc:ConditionCode>
+    </cac:Status>
+    <sac:TotalAmount currencyID="PEN">14</sac:TotalAmount>
+    <sac:BillingPayment>
+      <cbc:PaidAmount currencyID="PEN">12.73</cbc:PaidAmount>
+      <cbc:InstructionID>01</cbc:InstructionID>
+    </sac:BillingPayment>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">1.27</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxAmount currencyID="PEN">1.27</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+  </sac:SummaryDocumentsLine>
+</SummaryDocuments>

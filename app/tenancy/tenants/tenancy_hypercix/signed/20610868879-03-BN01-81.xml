@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>cWaQsA7jWP9Psw+/euK2cypkz/Y=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>aKID5fPAwGMubP8ezKQCp4PGFiciFTmH+wZ+oqnsPzu0/c5MI1wJpEgTpanvWcRuWIf71jrefqlLPNKTGFxDQBQs2/bB8wlbBY+wCtKTSCK+MSd8vWzygZkh/DpDY+RVf1kT8MF2lMN/ls0ghb/rLJT92kFlMQvxisJjp6SHxuCp/0dmHRa6wamLS2Y6KNjIFVNlsnUNFmo/e9KOCmczJnm207Rkbq7rKPrpO/GiLpBocwkR0anTiXBhDI8IbyKq1Rla/ot0uycdTg+YtxpVDMzMNe92wnjDjpfMtT/93oC0fiG2UcEO94SKvfyx1POrASOPdGh2h2Z/YzZMBjtLQQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>BN01-81</cbc:ID>
+  <cbc:IssueDate>2024-04-10</cbc:IssueDate>
+  <cbc:IssueTime>09:55:18</cbc:IssueTime>
+  <cbc:DueDate>2024-04-10</cbc:DueDate>
+  <cbc:InvoiceTypeCode listID="0101">03</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000"><![CDATA[Cuarenta y nueve  con 00/100 ]]></cbc:Note>
+  <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20610868879</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[CORPORACION HYPERCIX S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20610868879</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[CORPORACION HYPERCIX S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[CORPORACION HYPERCIX S.A.C.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>140101</cbc:ID>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cbc:CityName>Chiclayo</cbc:CityName>
+          <cbc:CountrySubentity>LAMBAYEQUE</cbc:CountrySubentity>
+          <cbc:District>Chiclayo</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[AV. PEDRO RUIZ GALLO NRO. 948 INT. 855 CERCADO DE CHICLAYO]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>996900982</cbc:Telephone>
+        <cbc:ElectronicMail>corporacionhypercix@gmail.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="0">99999999</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[Clientes - Varios]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">7.47</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">41.53</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">7.47</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">41.53</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">49.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">49</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.0000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">41.53</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">49.000000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">7.47</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">41.53</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">7.47</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[camara microsoft hd]]></cbc:Description>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">41.525424</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DespatchAdvice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>bHtRXfybQBaUZNzhmTTiM9PFqYw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>atVuTM9kd7uCu6f748KSeWvBmE3lcHV9cOAYOmCz4rKpbDGpp/hF5LmE7l3O6yiP9zBPT9O9tfuc2hTQcSokyNR5OtArnmiEZDSboEpg3keYc2Kyb34cmQZAJIq3kiVQCg3PVNIU+SRR4TUy192bLRvz4uALJAUL/Fu/P9wI/3U/rafY1f6VaurPR8TALgV5BXqMjk64UR6vIHu1ZseLn2UeStHnrCmHkgsPlisxDkxhkQ2wrqTGtWgTn+rZ8vS2NwcYxQ2vTl+KRA0rpssUtkpN4ntneQaBG1IIuZd0RpCF5+/PnHJP0j8M+q7GbiBZ0nygFJJlW5pqCQDQPsLIMg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>T010-234</cbc:ID>
+  <cbc:IssueDate>2024-03-25</cbc:IssueDate>
+  <cbc:IssueTime>09:17:37</cbc:IssueTime>
+  <cbc:DespatchAdviceTypeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" listName="Tipo de Documento" listAgencyName="PE:SUNAT">09</cbc:DespatchAdviceTypeCode>
+  <cbc:Note><![CDATA[DESCARTABLES PLANTACIONES DEL 28 MARZO AL 10 ABRIL DEL 2024]]></cbc:Note>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20487769909</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[INVERSIONES &amp; NEGOCIOS PAREDES S.A.C]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:DespatchSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="6">20487769909</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[INVERSIONES &amp; NEGOCIOS PAREDES S.A.C]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DespatchSupplierParty>
+  <cac:DeliveryCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="6">20487769909</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[INVERSIONES &amp; NEGOCIOS PAREDES S.A.C]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DeliveryCustomerParty>
+  <cac:Shipment>
+    <!-- ID OBLIGATORIO POR UBL -->
+    <cbc:ID>1</cbc:ID>
+    <!-- MOTIVO DEL TRASLADO -->
+    <cbc:HandlingCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20" listName="Motivo de traslado" listAgencyName="PE:SUNAT">04</cbc:HandlingCode>
+    <cbc:HandlingInstructions>Traslado entre establecimientos de la misma empresa</cbc:HandlingInstructions>
+    <!-- PESO BRUTO TOTAL DE LA CARGA-->
+    <cbc:GrossWeightMeasure unitCode="KGM">10.00</cbc:GrossWeightMeasure>
+    <cac:ShipmentStage>
+      <!-- MODALIDAD DE TRASLADO -->
+      <cbc:TransportModeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18" listName="Modalidad de traslado" listAgencyName="PE:SUNAT">02</cbc:TransportModeCode>
+      <!-- FECHA DE INICIO DEL TRASLADO o FECHA DE ENTREGA DE BIENES AL TRANSPORTISTA -->
+      <cac:TransitPeriod>
+        <cbc:StartDate>2024-03-25</cbc:StartDate>
+      </cac:TransitPeriod>
+      <!-- CONDUCTOR PRINCIPAL -->
+      <cac:DriverPerson>
+        <!-- TIPO Y NUMERO DE DOCUMENTO DE IDENTIDAD -->
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="1">80614305</cbc:ID>
+        <!-- NOMBRES -->
+        <cbc:FirstName>CRUZ PEREZ, JHIMY JACINTO</cbc:FirstName>
+        <!-- APELLIDOS -->
+        <cbc:FamilyName>CRUZ PEREZ, JHIMY JACINTO</cbc:FamilyName>
+        <!-- TIPO DE CONDUCTOR: PRINCIPAL -->
+        <cbc:JobTitle>Principal</cbc:JobTitle>
+        <cac:IdentityDocumentReference>
+          <!-- LICENCIA DE CONDUCIR -->
+          <cbc:ID>W80614305</cbc:ID>
+        </cac:IdentityDocumentReference>
+      </cac:DriverPerson>
+    </cac:ShipmentStage>
+    <cac:Delivery>
+      <!-- DIRECCION DEL PUNTO DE LLEGADA -->
+      <cac:DeliveryAddress>
+        <!-- UBIGEO DE LLEGADA -->
+        <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">140307</cbc:ID>
+        <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE LLEGADA -->
+        <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos" listID="20487769909">0000</cbc:AddressTypeCode>
+        <cac:AddressLine>
+          <cbc:Line><![CDATA[PLANTACIONES EL SOL - MOTUPE]]></cbc:Line>
+        </cac:AddressLine>
+      </cac:DeliveryAddress>
+      <cac:Despatch>
+        <!-- DIRECCION DEL PUNTO DE PARTIDA -->
+        <cac:DespatchAddress>
+          <!-- UBIGEO DE PARTIDA -->
+          <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">140101</cbc:ID>
+          <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE PARTIDA -->
+          <cbc:AddressTypeCode listName="Establecimientos anexos" listAgencyName="PE:SUNAT" listID="20487769909">0000</cbc:AddressTypeCode>
+          <!-- DIRECCION COMPLETA Y DETALLADA DE PARTIDA -->
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[FRANCISCO CUNEO N° 922-CHICLAYO]]></cbc:Line>
+          </cac:AddressLine>
+        </cac:DespatchAddress>
+      </cac:Despatch>
+    </cac:Delivery>
+    <cac:TransportHandlingUnit>
+      <cac:TransportEquipment>
+        <!-- VEHICULO PRINCIPAL -->
+        <!-- PLACA - VEHICULO PRINCIPAL -->
+        <cbc:ID>T7U892</cbc:ID>
+      </cac:TransportEquipment>
+    </cac:TransportHandlingUnit>
+  </cac:Shipment>
+  <!-- DETALLES DE BIENES A TRASLADAR -->
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>1</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">6.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>1</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[VASO DESCARTABLE 7ONZ X50UND X PAQUETE DE 50UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus635]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>2</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>2</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[CUCHARA DESCARTABLE N°6X50UND X PAQUETE DE 50UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus632]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>3</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>3</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[TENEDOR DESCARTABLE N°6X50UND X PAQUETE DE 50UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus633]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>4</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">2.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>4</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[BOLSA CHEQUERA BLANCA 16X19 X PAQUETE]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus615]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>5</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>5</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ENVASE DELI 1/2LT C/TAPA X PAQUETE DE 100 UNIDADES]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus1121]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>6</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>6</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ENVASE DELI 1LT C/TAPA X PAQUETE DE 100 UNIDADES]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus1119]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>7</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">4.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>7</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[BOLSA POLIETILENO 2.5X8 X PQUETE DE 100UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus3017]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>8</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>8</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ENVASE TRANSPARNTE DE 6ONZ C/TAPA X PAQUETE DE 100 UND]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[argus1792]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>

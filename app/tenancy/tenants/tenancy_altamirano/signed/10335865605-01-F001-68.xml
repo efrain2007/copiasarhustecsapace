@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>bWaiyMki2USO7UwdFMiRNI970uA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>xMZyEu4IhzQnxX5VU46reJRImN/liyAyPb3WJf4jKRQ3AohyfORUceydPCtDUYt9dk728lHAUtHV2bQyvMb5+Y1RNsVQy14GvHJno2VL88q5ypoPoI+CrIb+r624fxoRafNYZMlMzY+gqhMns5BZCQNvfXRXRwnPRpbabj/J2zkuxDIsqCIJSveAjAZmg+5DC3I+riT/cWPGtgLpURLsVA3rthZ57virA9Oz2FGS2YiTZiH1zjB8Cn43Ky5eYsKaQjkSuTVpCa8Inszh+pU8rhc6rH3jRwbkVLk2t2tHNfF4DLcR1qbMl39jY/c7PUwGCVCFWnChmvmwMKcuag/PNw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>F001-68</cbc:ID>
+  <cbc:IssueDate>2024-04-08</cbc:IssueDate>
+  <cbc:IssueTime>10:42:04</cbc:IssueTime>
+  <cbc:DueDate>2024-04-08</cbc:DueDate>
+  <cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000"><![CDATA[Veinticinco  con 00/100 ]]></cbc:Note>
+  <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>10335865605</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[SAMAME ALTAMIRANO ELVIA]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">10335865605</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[SAMAME ALTAMIRANO ELVIA]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[SAMAME ALTAMIRANO ELVIA]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>130401</cbc:ID>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cbc:CityName>Chepén</cbc:CityName>
+          <cbc:CountrySubentity>LA LIBERTAD</cbc:CountrySubentity>
+          <cbc:District>Chepen</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[Avenida Exequiel González Caceda 337]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>-</cbc:Telephone>
+        <cbc:ElectronicMail>altamirano@gmail.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20600738781</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[CONSTRUCTORA Y EQUIPOS LAZO S.A.C.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>150127</cbc:ID>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[CAL. EL ROBALO NRO. 115]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">3.81</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">21.19</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">3.81</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">21.19</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">25.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">25</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.0000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">21.19</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">25.000000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">3.81</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">21.19</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">3.81</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[MANGUERA DE AGUA]]></cbc:Description>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">21.186441</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

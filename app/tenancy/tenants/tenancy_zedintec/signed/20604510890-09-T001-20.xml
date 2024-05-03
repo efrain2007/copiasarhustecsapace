@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DespatchAdvice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>FVH4GJEvAjdMlf+2NAgN4R68rbQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>jGwPYf+yabEIQ4MY6paaQP6rBMqdhfD+5DIOyxUnzD97BCAa766WfOmdxQFpOtjQYuuQO6gZqFHTuOSjq196uDwomVdKw2zjzPuMb+68LinuMhDEF33Y7ArhKezPK1wvvyRDmzCTJgUaaoIWpsfsGm8xkxikGHBWUyH1IuY0eU0DVvnm0vUbQUbU+d9QHo1D7fmRpp5N0hN/Ld7caiVjKCAsk69+2fTZIjz+gDn588nBENNRM74tzKKSSQhErn9J7bj1tMEXxxHRsfQ5FPKBn3l3+WfIjY6Cj0Ht7Pw6MXJ/CKXvQz9WZK2GhWD7lE0ngFdetugS1PTUN3o2H6Pe1w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>T001-20</cbc:ID>
+  <cbc:IssueDate>2024-04-17</cbc:IssueDate>
+  <cbc:IssueTime>16:17:46</cbc:IssueTime>
+  <cbc:DespatchAdviceTypeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" listName="Tipo de Documento" listAgencyName="PE:SUNAT">09</cbc:DespatchAdviceTypeCode>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20604510890</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[ZEDINTEC SOLUCIONES DE INGENIERIA E.I.R.L.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:DespatchSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="6">20604510890</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[ZEDINTEC SOLUCIONES DE INGENIERIA E.I.R.L.]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DespatchSupplierParty>
+  <cac:DeliveryCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="1">32905054</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[SALIRROSAS CASTILLO, LUPE IVON]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DeliveryCustomerParty>
+  <cac:Shipment>
+    <!-- ID OBLIGATORIO POR UBL -->
+    <cbc:ID>1</cbc:ID>
+    <!-- MOTIVO DEL TRASLADO -->
+    <cbc:HandlingCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20" listName="Motivo de traslado" listAgencyName="PE:SUNAT">01</cbc:HandlingCode>
+    <cbc:HandlingInstructions>Venta</cbc:HandlingInstructions>
+    <!-- PESO BRUTO TOTAL DE LA CARGA-->
+    <cbc:GrossWeightMeasure unitCode="KGM">15.00</cbc:GrossWeightMeasure>
+    <cac:ShipmentStage>
+      <!-- MODALIDAD DE TRASLADO -->
+      <cbc:TransportModeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18" listName="Modalidad de traslado" listAgencyName="PE:SUNAT">02</cbc:TransportModeCode>
+      <!-- FECHA DE INICIO DEL TRASLADO o FECHA DE ENTREGA DE BIENES AL TRANSPORTISTA -->
+      <cac:TransitPeriod>
+        <cbc:StartDate>2024-04-17</cbc:StartDate>
+      </cac:TransitPeriod>
+      <!-- CONDUCTOR PRINCIPAL -->
+      <cac:DriverPerson>
+        <!-- TIPO Y NUMERO DE DOCUMENTO DE IDENTIDAD -->
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="1">45651230</cbc:ID>
+        <!-- NOMBRES -->
+        <cbc:FirstName>ZEÑA ZEÑA, EDINSON OMAR</cbc:FirstName>
+        <!-- APELLIDOS -->
+        <cbc:FamilyName>ZEÑA ZEÑA, EDINSON OMAR</cbc:FamilyName>
+        <!-- TIPO DE CONDUCTOR: PRINCIPAL -->
+        <cbc:JobTitle>Principal</cbc:JobTitle>
+        <cac:IdentityDocumentReference>
+          <!-- LICENCIA DE CONDUCIR -->
+          <cbc:ID>C45651230</cbc:ID>
+        </cac:IdentityDocumentReference>
+      </cac:DriverPerson>
+    </cac:ShipmentStage>
+    <cac:Delivery>
+      <!-- DIRECCION DEL PUNTO DE LLEGADA -->
+      <cac:DeliveryAddress>
+        <!-- UBIGEO DE LLEGADA -->
+        <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">021809</cbc:ID>
+        <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE LLEGADA -->
+        <cac:AddressLine>
+          <cbc:Line><![CDATA[Óvalo las Américas De 3 de Octubre]]></cbc:Line>
+        </cac:AddressLine>
+      </cac:DeliveryAddress>
+      <cac:Despatch>
+        <!-- DIRECCION DEL PUNTO DE PARTIDA -->
+        <cac:DespatchAddress>
+          <!-- UBIGEO DE PARTIDA -->
+          <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">150101</cbc:ID>
+          <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE PARTIDA -->
+          <cbc:AddressTypeCode listName="Establecimientos anexos" listAgencyName="PE:SUNAT" listID="20604510890">0000</cbc:AddressTypeCode>
+          <!-- DIRECCION COMPLETA Y DETALLADA DE PARTIDA -->
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[AV. GUILLERMO DANSEY 354 URB. LIMA INDUSTRIAL TIENDA H20 SEMISÓTANO BOULEVARD FERRETERO]]></cbc:Line>
+          </cac:AddressLine>
+        </cac:DespatchAddress>
+      </cac:Despatch>
+    </cac:Delivery>
+    <cac:TransportHandlingUnit>
+      <cac:TransportEquipment>
+        <!-- VEHICULO PRINCIPAL -->
+        <!-- PLACA - VEHICULO PRINCIPAL -->
+        <cbc:ID>M5F445</cbc:ID>
+      </cac:TransportEquipment>
+    </cac:TransportHandlingUnit>
+  </cac:Shipment>
+  <!-- DETALLES DE BIENES A TRASLADAR -->
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>1</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">5.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>1</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[ALUMBRADO PÚBLICO SOLAR LED 300W DAXSO]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>

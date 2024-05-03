@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>kSNvLyzwCKN2Fcd+fWQwnST3Zi4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bdD2gUmFKeTqcvGP0yS20n3fZUhYB3sSfP7Soc1ZVNMPPPDRTYBmATuNprjm79W1wnF/YcGr6bOHtmLvcsf5e0PPc64QmIwvIKXO8oHYM6N2fnYPkhYOrwy3zp1NwGNbDiQQCpbLNuWNLpMutY2pS7+NdidQK8fGhJDqxC1AsCZx1v6VWxXGW4XmqxZK16bt8nUXj9YjxGXuID0JJ+eAoTLxb6aeX75Kd1uG+KZ/aLWdkjT7bgbNB0Pb40ItK6aK2hwF7oeDnJaz0wa3ct2kf8hXqZLmsTItUlEojYPtLcTBtGInqCVM93MYi249VHdaTpN/p45tuLlgw4/GtF0FuQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>F001-1</cbc:ID>
+  <cbc:IssueDate>2023-10-22</cbc:IssueDate>
+  <cbc:IssueTime>13:02:23</cbc:IssueTime>
+  <cbc:DueDate>2023-10-22</cbc:DueDate>
+  <cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000"><![CDATA[Treinta  con 00/100 ]]></cbc:Note>
+  <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>10755578580</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[TORRES COTRINA VANESSA]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">10755578580</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[TORRES COTRINA VANESSA]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[TORRES COTRINA VANESSA]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>150101</cbc:ID>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cbc:CityName>Lima</cbc:CityName>
+          <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+          <cbc:District>Lima</cbc:District>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>-</cbc:Telephone>
+        <cbc:ElectronicMail>torres@gmail.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">10407013561</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[MONTENEGRO DAVILA JORGE LUIS]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">25.42</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">25.42</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">30.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">30</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.0000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">25.42</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">30.000000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">25.42</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[Forro de timón]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>Ft</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">25.423729</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

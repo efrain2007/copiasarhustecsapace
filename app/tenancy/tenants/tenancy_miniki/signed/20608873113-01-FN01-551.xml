@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>jMD5AH14iQM8IOENRf+AWFt/G/c=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Lq+LGrdxeemE+ZHyQLvSZuVX1kizFxAJ6bKj8VrsUsrrcvgge9epF7QXBkZeCyfsbrq5HlMIpqg/RkFSZaS5dKVA8nQ4GxKMEyGoQ1m0UwkgLxsPE2/W2fPKOXCLahqOhGMzEoZZotPfJxV4Kz89+uOUswNnH5DhYpRlB76BzwOZSjGL054TdETcEzRumEDa1BD1CL3h31pNhUQZKZk/YMcxERRFdk1k11c7HhEKI0WkgRn0DZG4ABZTFVkz1PEqswAmY86gHF1Wn5a3aPdEfekqCEbEZvG45vk0QoOu7XkWC6wmSiNjzZD5eudNAjKnP1LP6OLxSiRZZDpEhu3mlg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>FN01-551</cbc:ID>
+  <cbc:IssueDate>2023-12-16</cbc:IssueDate>
+  <cbc:IssueTime>11:31:27</cbc:IssueTime>
+  <cbc:DueDate>2023-12-16</cbc:DueDate>
+  <cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000"><![CDATA[Veinticinco  con 00/100 ]]></cbc:Note>
+  <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20608873113</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[AUTOBOUTIQUE Y SERVICIOS ELECTRICOS MINIKI E.I.R.L.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20608873113</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[AUTOBOUTIQUE Y SERVICIOS ELECTRICOS MINIKI E.I.R.L.]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[AUTOBOUTIQUE Y SERVICIOS ELECTRICOS MINIKI E.I.R.L.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>140101</cbc:ID>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cbc:CityName>Chiclayo</cbc:CityName>
+          <cbc:CountrySubentity>LAMBAYEQUE</cbc:CountrySubentity>
+          <cbc:District>Chiclayo</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[AV. AUGUSTO B. LEGUIA NRO. 951 INT. 124]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>-</cbc:Telephone>
+        <cbc:ElectronicMail>miniki@gmail.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20164032613</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[MUNICIPALIDAD DISTRITAL DE PIMENTEL]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>140112</cbc:ID>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[CAL. LEONCIO PRADO NRO. 143 ---- CERCADO, LAMBAYEQUE - CHICLAYO - PIMENTEL]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">3.81</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">21.19</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">3.81</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">21.19</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">25.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">25</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.0000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">21.19</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">25.000000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">3.81</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">21.19</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">3.81</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[Sirena 6tonos]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>Es20004</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">21.186441</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>IXd+Ly3kVMGFnSJ/eDY1SJP4YqY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>BC3hgvu6yUzV9+Wv5ePb4TJ0oWxm8qZDRiEVwQSGBdssrodj2mAC3bJWqhxK2O/i/Lh+m4Fty7/CJz/z9Rh7buyjRu3JqSdsJn8BpVod9kGuVCVe+jnk5o8TZbpaObg6wTZXiTreS6xqQtzZuXn4YMct5v+LDq1Dh50uGRD4nn0bV4qE+ZjgtM7d2C58g7FRWl/3WZ16f2GERGBILBp1tEe3lA9py8lfzVTApcyo3N1N80MP5p9eXdQ2zFWETgpNCx5FKfR7uMT5mToWhCmk35g7mY/QZTEa2Bo28sLlHMl9dkY0y0ETLCvJKwCa56eFbMifuGuuW6SnEgtt7FvkjQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.1</cbc:CustomizationID>
+  <cbc:ID>RC-20230816-13</cbc:ID>
+  <cbc:ReferenceDate>2023-07-10</cbc:ReferenceDate>
+  <cbc:IssueDate>2023-08-16</cbc:IssueDate>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20608873113</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[AUTOBOUTIQUE Y SERVICIOS ELECTRICOS MINIKI E.I.R.L.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>20608873113</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[AUTOBOUTIQUE Y SERVICIOS ELECTRICOS MINIKI E.I.R.L.]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <sac:SummaryDocumentsLine>
+    <cbc:LineID>1</cbc:LineID>
+    <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+    <cbc:ID>BN01-591</cbc:ID>
+    <cac:AccountingCustomerParty>
+      <cbc:CustomerAssignedAccountID>03204869</cbc:CustomerAssignedAccountID>
+      <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+    </cac:AccountingCustomerParty>
+    <cac:Status>
+      <cbc:ConditionCode>1</cbc:ConditionCode>
+    </cac:Status>
+    <sac:TotalAmount currencyID="PEN">380</sac:TotalAmount>
+    <sac:BillingPayment>
+      <cbc:PaidAmount currencyID="PEN">322.04</cbc:PaidAmount>
+      <cbc:InstructionID>01</cbc:InstructionID>
+    </sac:BillingPayment>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">57.96</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxAmount currencyID="PEN">57.96</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+  </sac:SummaryDocumentsLine>
+  <sac:SummaryDocumentsLine>
+    <cbc:LineID>2</cbc:LineID>
+    <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+    <cbc:ID>BN01-592</cbc:ID>
+    <cac:AccountingCustomerParty>
+      <cbc:CustomerAssignedAccountID>99999999</cbc:CustomerAssignedAccountID>
+      <cbc:AdditionalAccountID>0</cbc:AdditionalAccountID>
+    </cac:AccountingCustomerParty>
+    <cac:Status>
+      <cbc:ConditionCode>1</cbc:ConditionCode>
+    </cac:Status>
+    <sac:TotalAmount currencyID="PEN">160</sac:TotalAmount>
+    <sac:BillingPayment>
+      <cbc:PaidAmount currencyID="PEN">135.59</cbc:PaidAmount>
+      <cbc:InstructionID>01</cbc:InstructionID>
+    </sac:BillingPayment>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">24.41</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxAmount currencyID="PEN">24.41</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+  </sac:SummaryDocumentsLine>
+</SummaryDocuments>

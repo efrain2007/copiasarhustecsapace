@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>qM2mROta5apYcNLB5jpLlDzh0+A=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>V9l0/jtjCQSzGxMs9wz3vn6X9UltpzeV3/ZSi1WpVay/Xl7IA1+98HZzleY7osxPZF/2xQdSXKUitQg5J0oTEw+3tl7EPqxnp72kJj3qDUBGp08UResCpaNCH8bOXScAyuDV5r+aDCUrufCy2dWYAlV+EC/Xs3+jrgC8m/Y1Z4FNUZf+zegynsXKKRYy5W3Ly45F9YWATg7R91m8MjU296mgKesbOAvC4S1Eq9F9OVxY+NlsYrz24zr5h16epdSJBzWtWZ6MsFYcUPxC2hK1LngxDDzscVcqHbgu9oi/U5HSAZCxN2enF11s5TTlp9Xd4TInBMHu928KXJS4zH1B9A==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>B001-1107</cbc:ID>
+  <cbc:IssueDate>2024-02-26</cbc:IssueDate>
+  <cbc:IssueTime>01:17:00</cbc:IssueTime>
+  <cbc:DueDate>2024-02-26</cbc:DueDate>
+  <cbc:InvoiceTypeCode listID="0101">03</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000"><![CDATA[Cincuenta y cinco  con 00/100 ]]></cbc:Note>
+  <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20611868350</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[MR DELGADO EL REY DEL SABOR S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20611868350</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[MR DELGADO EL REY DEL SABOR S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[MR DELGADO EL REY DEL SABOR S.A.C.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>140105</cbc:ID>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cbc:CityName>Chiclayo</cbc:CityName>
+          <cbc:CountrySubentity>LAMBAYEQUE</cbc:CountrySubentity>
+          <cbc:District>José Leonardo Ortiz</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[AV. SAENZ PEÑA NRO. 2140 URB. LATINA]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>-</cbc:Telephone>
+        <cbc:ElectronicMail>rey@gmail.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="0">99999999</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[Cliente Varios]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">5.00</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">50.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">5.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">50.00</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">55.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">55</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.0000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">40.91</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">45.000000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">4.09</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">40.91</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">4.09</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>10.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[PARRILLA X3:  1 CHURRASCO+1 ANTICUHO+1 POLLO ALA PARRILLA+1 CHORIZO]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>ARGUS191argus</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">40.909091</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.0000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">9.09</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">10.000000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">0.91</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">9.09</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">0.91</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>10.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[JARRA DE CHICHA MORADA]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>ARGUS42argus</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">9.090909</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

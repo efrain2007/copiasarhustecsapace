@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>d0EwCHEBt3p/3/iGocpHr+A7Yz8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>FwOT/Pp/EbLoPY2JLEcs7xLOiVUzCDAcfUFm7Pya8XhLjtl9zF63qygeJmvGK8cGDbCucJs16Mq9BipZ1VL9h34R8f89KhkokCZeAyqZ9Cls19D+QOI6JkRXjkjv6kqYqHH2NbVWhKdQfEDbcoHhz3eWa+/X1+A66RB9kbJcp7JD/iuFWqwqaC/kG0ICq0tTO7yHOWqdS4qpGeyp1z9XU7WbH6dQRd/08W2lvWegI82rHizqK3PN/pNj+gj3sQ7Q7q6gXKzwCmOoFm9eoJMbviT6hKA5zAM/VdyI5eNb1zODnE6nobj/BZ5PYNjWwKWCRNn4xm8hznICVbENss5Gnw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.1</cbc:CustomizationID>
+  <cbc:ID>RC-20240106-1</cbc:ID>
+  <cbc:ReferenceDate>2024-01-06</cbc:ReferenceDate>
+  <cbc:IssueDate>2024-01-06</cbc:IssueDate>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>10605105195</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[VILLENA FLORES CARLOS ALONSO]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>10605105195</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[VILLENA FLORES CARLOS ALONSO]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <sac:SummaryDocumentsLine>
+    <cbc:LineID>1</cbc:LineID>
+    <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+    <cbc:ID>B001-1</cbc:ID>
+    <cac:AccountingCustomerParty>
+      <cbc:CustomerAssignedAccountID>00000001</cbc:CustomerAssignedAccountID>
+      <cbc:AdditionalAccountID>0</cbc:AdditionalAccountID>
+    </cac:AccountingCustomerParty>
+    <cac:Status>
+      <cbc:ConditionCode>3</cbc:ConditionCode>
+    </cac:Status>
+    <sac:TotalAmount currencyID="PEN">25.3</sac:TotalAmount>
+    <sac:BillingPayment>
+      <cbc:PaidAmount currencyID="PEN">25.30</cbc:PaidAmount>
+      <cbc:InstructionID>02</cbc:InstructionID>
+    </sac:BillingPayment>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+  </sac:SummaryDocumentsLine>
+</SummaryDocuments>

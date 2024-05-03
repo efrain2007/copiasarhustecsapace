@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<DespatchAdvice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>W25sh0qKM/LCeZCM3hcOpURLcoA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>F04YqDdyQd56Jwd+UnRB+5cOjwiV4IyymXBZ/Vxq1iySrOx49IQAmLU6L1Zyhz/hOhLAk24l3gmzw03k958vr6cUGwuDLzYYOVWgBE3yBYotL3GEfek/INZ2vYLVRbWbS7yOalCb3I7YECBsfJWj+Iy6Kz5jjRc0jhEpU6FYizIaCoxpDxJ9oaveLmj2OaIerGns1GlV5UaqI36lvFl2iyduWM73vtjv7Kp8HzSH1O9vdHq1n61iLG52GAMGYpICLvhCjRgUVopf6NWFFXfrSQtuwAotqV1l0QmfodeRX8d3tAiFW6YmnlnEGy0QZzoot8VuS1aWlRYLv1fwxfgyCg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>T001-1</cbc:ID>
+  <cbc:IssueDate>2024-04-10</cbc:IssueDate>
+  <cbc:IssueTime>09:43:11</cbc:IssueTime>
+  <cbc:DespatchAdviceTypeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" listName="Tipo de Documento" listAgencyName="PE:SUNAT">09</cbc:DespatchAdviceTypeCode>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20603301791</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[GERNYLED EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA - GERNYLED E.I.R.L]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:DespatchSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="6">20603301791</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[GERNYLED EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA - GERNYLED E.I.R.L]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DespatchSupplierParty>
+  <cac:DeliveryCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="1">42647165</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[VILLAR EDUARDO, IDA BENITA]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DeliveryCustomerParty>
+  <cac:Shipment>
+    <!-- ID OBLIGATORIO POR UBL -->
+    <cbc:ID>1</cbc:ID>
+    <!-- MOTIVO DEL TRASLADO -->
+    <cbc:HandlingCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20" listName="Motivo de traslado" listAgencyName="PE:SUNAT">01</cbc:HandlingCode>
+    <cbc:HandlingInstructions>Venta</cbc:HandlingInstructions>
+    <!-- PESO BRUTO TOTAL DE LA CARGA-->
+    <cbc:GrossWeightMeasure unitCode="KGM">2.00</cbc:GrossWeightMeasure>
+    <cac:ShipmentStage>
+      <!-- MODALIDAD DE TRASLADO -->
+      <cbc:TransportModeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18" listName="Modalidad de traslado" listAgencyName="PE:SUNAT">01</cbc:TransportModeCode>
+      <!-- FECHA DE INICIO DEL TRASLADO o FECHA DE ENTREGA DE BIENES AL TRANSPORTISTA -->
+      <cac:TransitPeriod>
+        <cbc:StartDate>2024-04-10</cbc:StartDate>
+      </cac:TransitPeriod>
+      <cac:CarrierParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="Documento de Identidad" schemeID="0">001</cbc:ID>
+        </cac:PartyIdentification>
+        <cac:PartyLegalEntity>
+          <!-- NOMBRE/RAZON SOCIAL DEL TRANSPORTISTA-->
+          <cbc:RegistrationName><![CDATA[PUBLICO]]></cbc:RegistrationName>
+          <!-- NUMERO DE REGISTRO DEL MTC -->
+          <cbc:CompanyID/>
+        </cac:PartyLegalEntity>
+      </cac:CarrierParty>
+    </cac:ShipmentStage>
+    <cac:Delivery>
+      <!-- DIRECCION DEL PUNTO DE LLEGADA -->
+      <cac:DeliveryAddress>
+        <!-- UBIGEO DE LLEGADA -->
+        <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">080907</cbc:ID>
+        <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE LLEGADA -->
+        <cac:AddressLine>
+          <cbc:Line><![CDATA[CUSCO / LA CONVENCIÓN / KIMBIRI/ VRAEM]]></cbc:Line>
+        </cac:AddressLine>
+      </cac:DeliveryAddress>
+      <cac:Despatch>
+        <!-- DIRECCION DEL PUNTO DE PARTIDA -->
+        <cac:DespatchAddress>
+          <!-- UBIGEO DE PARTIDA -->
+          <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">150101</cbc:ID>
+          <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE PARTIDA -->
+          <cbc:AddressTypeCode listName="Establecimientos anexos" listAgencyName="PE:SUNAT" listID="20603301791">0000</cbc:AddressTypeCode>
+          <!-- DIRECCION COMPLETA Y DETALLADA DE PARTIDA -->
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[JR. ANDAHUAYLAS NRO. 955 INT. 2]]></cbc:Line>
+          </cac:AddressLine>
+        </cac:DespatchAddress>
+      </cac:Despatch>
+    </cac:Delivery>
+  </cac:Shipment>
+  <!-- DETALLES DE BIENES A TRASLADAR -->
+  <cac:DespatchLine>
+    <!-- NUMERO DE ORDEN DEL ITEM -->
+    <cbc:ID>1</cbc:ID>
+    <!-- CANTIDAD -->
+    <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">20.0000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>1</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <cbc:Description><![CDATA[VENTILADOR DE MANO - GERNYLED]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID><![CDATA[]]></cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Efy9USiHKVSEneCYbl1IPlRqeSY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>iP52fkhWT8bAT7f7WXyz941p3z08rJVCF97OA72U7zH63TTqjg6+6EwzJwqTVdKFjGntT3lqXtknKIvg9+PnxfSjVdS/pzwIxh8AD42GgKKePLWqkFBQY5/N7UBIpqZl7S7v4oY1yc+wDTN3DniDFaG7JDXovsi1qqlrW6M47UB8ILklBg3Pkj9/fVctCrw9NIRTIDbH++HRhK/q5yohP+4SvnmTYjrWkD3r+VZa/kuIiIFXTZwE4tyEvfTktjpHS2LJoVcuSMHOYzWPaMeRo2FRzpKzkgiXY59qKAI8nB7MZWLgJAqEMyWsDrRoeQhZ044h8YpTdWs3S5SW5CQsGQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIkTCCBnmgAwIBAgIUYYdipdyFCgF9iUlXrbeIF23zi0gwDQYJKoZIhvcNAQELBQAwbDELMAkGA1UEBhMCUEUxPDA6BgNVBAoMM1JlZ2lzdHJvIE5hY2lvbmFsIGRlIElkZW50aWZpY2FjacOzbiB5IEVzdGFkbyBDaXZpbDEfMB0GA1UEAwwWRUNFUC1SRU5JRUMgQ0EgQ2xhc3MgMTAeFw0yMTEwMDMxMzE5MTdaFw0yNDEwMDIxMzE5MTdaMIH6MQswCQYDVQQGEwJQRTEcMBoGA1UECAwTTEFNQkFZRVFVRS1DSElDTEFZTzERMA8GA1UEBwwIQ0hJQ0xBWU8xIDAeBgNVBAoMF1RBRlVSIFBVUklIVUFNQU4gTUFOVUVMMRowGAYDVQRhDBFOVFJQRS0xMDQ2MTg4Nzc1NDEhMB8GA1UECwwYRVJFUF9TVU5BVF8yMDIxMDAwMTg1OTI1MRQwEgYDVQQLDAsxMDQ2MTg4Nzc1NDFDMEEGA1UEAww6fHxVU08gVFJJQlVUQVJJT3x8IFRBRlVSIFBVUklIVUFNQU4gTUFOVUVMIENEVCAxMDQ2MTg4Nzc1NDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJFq7Y8SnfXd7vyhtWLcdAdKzKC8qiZGm4cdmBcpf57k8aolSXZd0pnCqYq3Jkz6zXEeywgnTNIxIpjqEMM6PgZuty/53fMxE2xNddeg/d7SSa/rjrfq9RQPlyM717EB9t8GqMnvuIvzB7hpUPP+YfDsFOD+m77DJp189Ii3yDtcL11ZQk7QCpWfhWMgQzmtdo5yJy4SiyQHdIn0iYD1nT8vA/jQAw0DCahCkFfR2MkMNUsudDHQiJetNjjReQF8UGjkcZ2om0ehKyPlCkhaEypscW3DVOVyy3sOQv4uRfCzXXLkRVHvLCQl7/YV8hqFyscRHRAmJjDJSJZU5bXQ0dMCAwEAAaOCA5owggOWMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUQxVu8NPRaxspM0EtVaxxItE8pV0wbgYIKwYBBQUHAQEEYjBgMDcGCCsGAQUFBzAChitodHRwOi8vY3J0LnJlbmllYy5nb2IucGUvcm9vdDMvY2FjbGFzczEuY3J0MCUGCCsGAQUFBzABhhlodHRwOi8vb2NzcC5yZW5pZWMuZ29iLnBlMIICNwYDVR0gBIICLjCCAiowdwYRKwYBBAGCk2QCAQMBAGWHaAAwYjAxBggrBgEFBQcCARYlaHR0cHM6Ly93d3cucmVuaWVjLmdvYi5wZS9yZXBvc2l0b3J5LzAtBggrBgEFBQcCARYhUG9s7XRpY2EgR2VuZXJhbCBkZSBDZXJ0aWZpY2FjafNuMIHEBhErBgEEAYKTZAIBAwEAZ4doADCBrjAyBggrBgEFBQcCARYmaHR0cHM6Ly9wa2kucmVuaWVjLmdvYi5wZS9yZXBvc2l0b3Jpby8weAYIKwYBBQUHAgIwbB5qAEQAZQBjAGwAYQByAGEAYwBpAPMAbgAgAGQAZQAgAFAAcgDhAGMAdABpAGMAYQBzACAAZABlACAAQwBlAHIAdABpAGYAaQBjAGEAYwBpAPMAbgAgAEUAQwBFAFAALQBSAEUATgBJAEUAQzCB5wYRKwYBBAGCk2QCAQMBAWeHcwMwgdEwgc4GCCsGAQUFBwICMIHBHoG+AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAEQAaQBnAGkAdABhAGwAIABUAHIAaQBiAHUAdABhAHIAaQBvACAAcABhAHIAYQAgAEEAZwBlAG4AdABlACAAQQB1AHQAbwBtAGEAdABpAHoAYQBkAG8AIABDAGwAYQBzAHMAIAAxACwAIABlAG4AIABjAHUAbQBwAGwAaQBtAGkAZQBuAHQAbwAgAGQAZQBsACAARABMACAATgC6ACAAMQAzADcAMDATBgNVHSUEDDAKBggrBgEFBQcDBDB2BgNVHR8EbzBtMDSgMqAwhi5odHRwOi8vY3JsLnJlbmllYy5nb2IucGUvY3JsL3NoYTIvY2FjbGFzczEuY3JsMDWgM6Axhi9odHRwOi8vY3JsMi5yZW5pZWMuZ29iLnBlL2NybC9zaGEyL2NhY2xhc3MxLmNybDAdBgNVHQ4EFgQU8DWSQXqgbTJCJ6fNGYBc4FgvmVUwDgYDVR0PAQH/BAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQBqqMjwaQLK3Tb+25subcOdSk6Dj+q7UaWs33iAHpGajtyJQ9YQtwGaq3qrysGZf7jiAD3CAnNt9M0JZUtVqad2JD43Z0cKMCJWkkfHZNjlKI35vAFEVTJ9bkGlpPOOhLkrsZoEOEiCxWqlnR+D5f7cTZQk1Q7yioBb9UdlzFF+G7uqtnomMwB65fuSp/nkLu+RqgArCmfHoNpFMr6pJpOiwkOuJhhqCYRYxEdkl/hQmxGYpWG4X2Be1LaK9JoJMFH7T9ehaCIT5C3u6M8JWbjic0C9KHmyeAYAB6YFkP5Z6ZC7ZHMpTH5mcgN+JjMyCSfzTtikeCsQIFmE94TmUE3PLr/dipE/CiK5N1mF5m3S3c6/gg9951ewutvWz9+2IHblE92kxgLJy2liQ5monVgpPMBI73yjGJvMReIXJM8mZZRtiq3P3qnAC/Sbh3IxiPxu35Sw/vgn3T0BqK3dClQU/m/HFrX3tpXKo2BoOaayWDErIGORAb+nIF+9wOiiTvastz8WujdUaFi6MDnYJyQcEvwr1gft8ngKiDAQ27Wstw3Fa6ByafVj1e90BL2IJ5fePQOCp+GDM4RNKXwKgucKMz06nQvdd95yxFVJh3ygOjJ51SvPLWxJteJP4tejAVp30lwDdi/UP+7ZSEEflJrgzYRPEA/1UKYgeLqU/2YUHg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.1</cbc:CustomizationID>
+  <cbc:ID>RC-20230702-1</cbc:ID>
+  <cbc:ReferenceDate>2023-07-01</cbc:ReferenceDate>
+  <cbc:IssueDate>2023-07-02</cbc:IssueDate>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>10461887754</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[TAFUR PURIHUAMAN MANUEL]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>10461887754</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[TAFUR PURIHUAMAN MANUEL]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <sac:SummaryDocumentsLine>
+    <cbc:LineID>1</cbc:LineID>
+    <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+    <cbc:ID>BN01-359</cbc:ID>
+    <cac:AccountingCustomerParty>
+      <cbc:CustomerAssignedAccountID>27728549</cbc:CustomerAssignedAccountID>
+      <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+    </cac:AccountingCustomerParty>
+    <cac:Status>
+      <cbc:ConditionCode>1</cbc:ConditionCode>
+    </cac:Status>
+    <sac:TotalAmount currencyID="PEN">7.5</sac:TotalAmount>
+    <sac:BillingPayment>
+      <cbc:PaidAmount currencyID="PEN">6.36</cbc:PaidAmount>
+      <cbc:InstructionID>01</cbc:InstructionID>
+    </sac:BillingPayment>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">1.14</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxAmount currencyID="PEN">1.14</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+  </sac:SummaryDocumentsLine>
+  <sac:SummaryDocumentsLine>
+    <cbc:LineID>2</cbc:LineID>
+    <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+    <cbc:ID>BN01-360</cbc:ID>
+    <cac:AccountingCustomerParty>
+      <cbc:CustomerAssignedAccountID>27728549</cbc:CustomerAssignedAccountID>
+      <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+    </cac:AccountingCustomerParty>
+    <cac:Status>
+      <cbc:ConditionCode>1</cbc:ConditionCode>
+    </cac:Status>
+    <sac:TotalAmount currencyID="PEN">22.5</sac:TotalAmount>
+    <sac:BillingPayment>
+      <cbc:PaidAmount currencyID="PEN">19.07</cbc:PaidAmount>
+      <cbc:InstructionID>01</cbc:InstructionID>
+    </sac:BillingPayment>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">3.43</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxAmount currencyID="PEN">3.43</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+  </sac:SummaryDocumentsLine>
+</SummaryDocuments>

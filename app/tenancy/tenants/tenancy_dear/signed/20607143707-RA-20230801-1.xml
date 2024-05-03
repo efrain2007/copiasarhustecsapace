@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<VoidedDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFACTURALOPERU">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>lDFdkgGAZV5+S7wL++aiupxRMVM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bytveMmU8DWz4q4QqrcwpZ8TwOnquK17NHN1AMIn97BH5N4dSCxKYBvEKkSbwxGpPckCw4k8/TpcalabYsMKpOwwyD9OenLHFirp/8e91fQsYvBHucI5xITP8fHEWl65a5x3lXiB7yseviR11Z73deqxfPvkFb7qp2RR1EfofQsWKDEWfFfInOusoJA3gvkEX0g9EgJ1B/QfsKe1qK29fu7umTRZ+ayaC4+zFOnvuUVgyjO+2Ckn6umI/XZIGMdVZDYu3gR+e+15IYqLnEzegxjQCpYRZmR1yO/S/Cw+9n8ppUgEtWnMkiAq2SISLuND1VdXKDFno6uh93BXxwD8Eg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.0</cbc:CustomizationID>
+  <cbc:ID>RA-20230801-1</cbc:ID>
+  <cbc:ReferenceDate>2023-07-31</cbc:ReferenceDate>
+  <cbc:IssueDate>2023-08-01</cbc:IssueDate>
+  <cac:Signature>
+    <cbc:ID>signatureFACTURALOPERU</cbc:ID>
+    <cbc:Note>FACTURALO</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20607143707</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[DEAR PERU CORPORATION S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureFACTURALOPERU</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>20607143707</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[DEAR PERU CORPORATION S.A.C.]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <sac:VoidedDocumentsLine>
+    <cbc:LineID>1</cbc:LineID>
+    <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+    <sac:DocumentSerialID>FN01</sac:DocumentSerialID>
+    <sac:DocumentNumberID>4436</sac:DocumentNumberID>
+    <sac:VoidReasonDescription><![CDATA[CLIENTE QUIERE UNA SOLA FACTURA]]></sac:VoidReasonDescription>
+  </sac:VoidedDocumentsLine>
+</VoidedDocuments>
